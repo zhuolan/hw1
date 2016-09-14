@@ -1,0 +1,28 @@
+var color="color";
+
+function die (direction){ 
+  while (getColor() !=="red"){
+  direction();
+  }
+ 
+if (getColor()=="red"){ 
+ right();
+   right();
+}else {die(direction);}}
+
+                         
+                           
+                        
+
+  die(down);
+                          
+  die(up);
+                           
+                          
+  die(down);
+                           
+                          
+  die(up);  
+                           
+  die(down);
+                    
