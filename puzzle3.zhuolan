@@ -1,0 +1,22 @@
+function cool ( n, direction){
+var steps=0;
+while (steps<n){
+  direction();
+  steps=(steps+1);
+}
+}
+
+function cool ( n, direction){
+var steps=0;
+while (steps<n){
+  direction();
+  steps=(steps+1);
+}
+}
+cool(2,down);
+var color = getColor();
+cool(3,down);
+cool(2, right);
+setColor(color);
+cool(2,right);
+cool(1, up);
