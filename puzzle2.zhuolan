@@ -1,0 +1,14 @@
+
+
+function cool ( n, direction){
+var steps=0;
+while (steps<n){
+  direction();
+  steps=(steps+1);
+}
+}
+cool(6,down);
+cool(3,right);
+cool(2, up);
+cool(2,right);
+cool(3, down);
