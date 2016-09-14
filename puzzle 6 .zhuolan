@@ -1,0 +1,46 @@
+function go ( n, direction){
+var steps=0;
+while (steps<n){
+  direction();
+  steps=(steps+1);
+}
+}
+var color= "color";
+function second(color){
+  if (getColor()=="red"){
+    left();
+    up();                  
+  } else {
+    right();
+    up();
+  }
+}
+
+function third(color){
+  if (getColor()=="red"){
+    left();
+    down();
+  } else  {
+    right();
+    down();
+  }                                                    
+}
+
+function cool (color){
+  if (getColor()=="red"){
+    up();
+    up();
+    up();
+    second(color);
+  } else {
+    down();
+    down();
+    down();
+    third(color);
+  }
+}
+  
+right();
+cool(color);
+
+ 
